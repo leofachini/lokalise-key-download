@@ -1,0 +1,18 @@
+{
+  "name": "download-translations-from-lokalise",
+  "version": "1.0.0",
+  "description": "Download translations from lokalise",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lokalise": "node index.js"
+  },
+  "author": "Leonardo Fachini Martins",
+  "license": "ISC",
+  "dependencies": {
+    "@lokalise/node-api": "^9.8.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1",
+    "node-stream-zip": "^1.15.0"
+  }
+}

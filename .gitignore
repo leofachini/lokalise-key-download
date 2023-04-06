@@ -1,0 +1,4 @@
+node_modules/
+.env*
+static/locales/*
+!static/locales/.gitkeep
